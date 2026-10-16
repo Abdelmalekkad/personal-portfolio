@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description"
+    content="Portfolio of KADDOUR Abdelmalek Islam — Artificial Intelligence and Applications student at ENSTA, Algeria. Interested in AI, machine learning, web development, Cybersecurity foundations, and blockchain." />
+  <meta name="author" content="KADDOUR Abdelmalek Islam" />
+  <meta property="og:title" content="KADDOUR Abdelmalek Islam | Student Portfolio" />
+  <meta property="og:description"
+    content="AI and Applications student at ENSTA, Algeria. Exploring machine learning, web development, mobile development, Cybersecurity foundations, and blockchain." />
+  <meta property="og:type" content="website" />
+  <title>KADDOUR Abdelmalek Islam | Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+
+  <a class="skip-link" href="#main-content">Skip to main content</a>
+
+  <!-- Navigation -->
+  <header class="site-header" id="site-header">
+    <nav class="navbar container" aria-label="Main navigation">
+
+      <a class="nav-logo" href="#home" aria-label="KADDOUR Abdelmalek Islam — Home" data-i18n-aria="navLogoAria">
+        <span class="logo-initials">KAI</span>
+        <span class="logo-dot" aria-hidden="true"></span>
+      </a>
+
+      <ul class="nav-links" id="nav-links" role="list">
+        <li><a class="nav-link" href="#home" data-i18n="navHome">Home</a></li>
+        <li><a class="nav-link" href="#about" data-i18n="navAbout">About</a></li>
+        <li><a class="nav-link" href="#education" data-i18n="navEducation">Education</a></li>
+        <li><a class="nav-link" href="#skills" data-i18n="navSkills">Skills</a></li>
+        <li><a class="nav-link" href="#projects" data-i18n="navProjects">Projects</a></li>
+        <li><a class="nav-link" href="#experience" data-i18n="navExperience">Experience</a></li>
+
+        <li><a class="nav-link nav-link--cta" href="#contact" data-i18n="navContact">Contact</a></li>
+      </ul>
+
+      <div class="navbar-controls">
+        <button class="lang-switch-btn" id="lang-switch-btn" type="button" aria-label="Switch to Arabic">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <circle cx="12" cy="12" r="10" />
+            <line x1="2" y1="12" x2="22" y2="12" />
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z" />
+          </svg>
+          <span class="lang-text" id="lang-text">العربية</span>
+        </button>
+
+        <button class="menu-toggle" id="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links"
+          aria-label="Open navigation menu">
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+          <span class="hamburger-bar" aria-hidden="true"></span>
+        </button>
+      </div>
+
+    </nav>
+  </header>
+
+  <main id="main-content">
+
+    <!-- Hero -->
+    <section class="section hero-section" id="home" aria-labelledby="hero-heading">
+      <div class="container hero-container">
+
+        <div class="hero-text-col">
+
+          <p class="hero-eyebrow" data-i18n="heroEyebrow">Student &amp; Aspiring Developer</p>
+          <h1 class="hero-name" id="hero-heading" data-i18n="heroName">KADDOUR<br />Abdelmalek Islam</h1>
+          <p class="hero-subtitle" data-i18n="heroSubtitle">
+            Artificial Intelligence and Applications Student<br />at ENSTA, Algeria
+          </p>
+          <p class="hero-text" data-i18n="heroText">
+            I study at the National Higher School of Advanced Technologies (ENSTA)
+            in Algeria, where I explore artificial intelligence, machine learning,
+            web development, Cybersecurity foundations, and blockchain. I enjoy building practical software
+            and learning by doing.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#projects" data-i18n="heroBtnProjects">View My Projects</a>
+            <a class="btn btn-secondary" href="#contact" data-i18n="heroBtnContact">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-photo-col">
+          <div class="photo-deco" aria-hidden="true"></div>
+          <div class="photo-deco-2" aria-hidden="true"></div>
+
+          <div class="profile-photo-wrapper">
+            <img class="profile-photo" src="images/portfolio photo.png" alt="KADDOUR Abdelmalek Islam — profile photo"
+              width="280" height="340" loading="eager" data-i18n-alt="heroPhotoAlt" />
+            <span class="photo-badge" data-i18n="heroPhotoBadge">ENSTA &rsquo;23</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section about-section" id="about" aria-labelledby="about-heading">
+      <div class="container container--narrow">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="aboutLabel">About Me</span>
+          <h2 id="about-heading" data-i18n="aboutHeading">A student building practical experience</h2>
+        </div>
+        <div class="about-body reveal">
+          <p data-i18n="aboutP1">
+            I am an Artificial Intelligence and Applications student at the National Higher
+            School of Advanced Technologies (ENSTA) in Algeria, currently in the third year
+            of a five-year programme (2023&ndash;2028). I am interested in how artificial
+            intelligence and software development can be used to create tools and products
+            that solve real problems.
+          </p>
+          <p data-i18n="aboutP2">
+            My academic journey has introduced me to machine learning, Cybersecurity foundations and blockchain, web
+            development, and mobile development. Alongside my studies, I have been building
+            practical experience through a completed e-learning project, a professional
+            internship, and volunteer work in academic event organisation.
+          </p>
+          <p data-i18n="aboutP3">
+            I aim to deepen my technical skills and work on meaningful projects as I
+            continue to grow as a developer. I am open to internship opportunities,
+            collaborative projects, and connections with other developers and researchers.
+          </p>
+        </div>
+        <div class="about-stats reveal">
+          <div class="stat-item">
+            <span class="stat-number">2023</span>
+            <span class="stat-label" data-i18n="stat1Label">Started at ENSTA</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">2028</span>
+            <span class="stat-label" data-i18n="stat2Label">Expected graduation</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">1</span>
+            <span class="stat-label" data-i18n="stat3Label">Completed project</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number">4</span>
+            <span class="stat-label" data-i18n="stat4Label">Fields of interest</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Education -->
+    <section class="section education-section" id="education" aria-labelledby="education-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="eduLabel">Education</span>
+          <h2 id="education-heading" data-i18n="eduHeading">Academic background</h2>
+        </div>
+        <div class="education-list">
+
+          <!-- Speciality Cycle -->
+          <div class="education-card education-card--speciality reveal" role="article">
+            <div class="education-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                <path d="M6 12v5c3 3 9 3 12 0v-5" />
+              </svg>
+            </div>
+            <div class="education-card__body">
+              <div class="education-card__header">
+                <div>
+                  <h3 class="education-card__school" data-i18n="edu1School">National Higher School of Advanced
+                    Technologies</h3>
+                  <p class="education-card__abbr" data-i18n="edu1Abbr">ENSTA &mdash; Algeria</p>
+                  <p class="education-card__degree" data-i18n="edu1Degree">Engineering Degree &bull; Artificial
+                    Intelligence &amp; Applications (Speciality Cycle)</p>
+                  <div class="education-card__badges">
+                    <span class="education-badge education-badge--active" data-i18n="edu1Badge1">In Progress &bull;
+                      Speciality Cycle</span>
+                    <span class="education-badge" data-i18n="edu1Badge2">Higher Engineering</span>
+                  </div>
+                </div>
+                <div class="education-card__period">
+                  <span data-i18n="edu1PeriodStart">2025</span>
+                  <span class="period-separator" aria-hidden="true">&rarr;</span>
+                  <span data-i18n="edu1PeriodEnd">2028</span>
+                </div>
+              </div>
+              <p class="education-card__desc" data-i18n="edu1Desc">
+                Specialized engineering curriculum dedicated to artificial intelligence models, machine learning, deep
+                neural networks, Cybersecurity foundations, blockchain architectures, and full-stack software systems development.
+              </p>
+              <div class="coursework">
+                <p class="coursework__label" data-i18n="edu1CourseworkLabel">Key coursework &amp; focus areas</p>
+                <ul class="tag-list" role="list">
+                  <li class="tag" data-i18n="edu1Tag1">Artificial Intelligence</li>
+                  <li class="tag" data-i18n="edu1Tag2">Machine Learning</li>
+                  <li class="tag" data-i18n="edu1Tag3">Deep Learning</li>
+                  <li class="tag" data-i18n="edu1Tag4">Cybersecurity &amp; Blockchain</li>
+                  <li class="tag" data-i18n="edu1Tag5">Web Development</li>
+                  <li class="tag" data-i18n="edu1Tag6">Mobile Development</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Preparatory Cycle -->
+          <div class="education-card education-card--prepa reveal" role="article">
+            <div class="education-card__icon" aria-hidden="true">
+              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
+                <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
+                <path d="M8 7h8" />
+                <path d="M8 11h6" />
+              </svg>
+            </div>
+            <div class="education-card__body">
+              <div class="education-card__header">
+                <div>
+                  <h3 class="education-card__school" data-i18n="edu2School">National Higher School of Advanced
+                    Technologies</h3>
+                  <p class="education-card__abbr" data-i18n="edu2Abbr">ENSTA &mdash; Algeria</p>
+                  <p class="education-card__degree" data-i18n="edu2Degree">Integrated Preparatory Cycle (Classes
+                    Préparatoires Intégrées) &bull; 2 Years</p>
+                  <div class="education-card__badges">
+                    <span class="education-badge education-badge--done" data-i18n="edu2Badge1">✓ Completed (2
+                      Years)</span>
+                    <span class="education-badge" data-i18n="edu2Badge2">Capstone: CourSpace (Prepanova)</span>
+                  </div>
+                </div>
+                <div class="education-card__period">
+                  <span data-i18n="edu2PeriodStart">2023</span>
+                  <span class="period-separator" aria-hidden="true">&rarr;</span>
+                  <span data-i18n="edu2PeriodEnd">2025</span>
+                </div>
+              </div>
+              <p class="education-card__desc" data-i18n="edu2Desc">
+                Intensive 2-year multidisciplinary preparatory program combining advanced mathematics, physical
+                sciences, computer science algorithms, and programming foundations, culminating in the capstone
+                graduation project (Prepanova / CourSpace).
+              </p>
+              <div class="coursework">
+                <p class="coursework__label" data-i18n="edu2CourseworkLabel">Key coursework &amp; foundational study</p>
+                <ul class="tag-list" role="list">
+                  <li class="tag" data-i18n="edu2Tag1">Advanced Mathematics &amp; Calculus</li>
+                  <li class="tag" data-i18n="edu2Tag2">Algorithms &amp; Data Structures</li>
+                  <li class="tag" data-i18n="edu2Tag3">Physics &amp; Electronics</li>
+                  <li class="tag" data-i18n="edu2Tag4">Object-Oriented Programming</li>
+                  <li class="tag" data-i18n="edu2Tag5">Scientific Computing</li>
+                  <li class="tag" data-i18n="edu2Tag6">Capstone Project (CourSpace)</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section skills-section" id="skills" aria-labelledby="skills-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="skillsLabel">Skills &amp; Interests</span>
+          <h2 id="skills-heading" data-i18n="skillsHeading">Areas I am exploring</h2>
+          <p class="section-subtitle" data-i18n="skillsSubtitle">
+            The categories below reflect my academic interests and current areas of study.
+            They do not imply professional mastery.
+          </p>
+        </div>
+        <div class="skills-grid">
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M9.663 17h4.673M12 3v1m6.364 1.636-.707.707M21 12h-1M4 12H3m1.636-6.364-.707-.707M12 21v-1" />
+                <circle cx="12" cy="12" r="4" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill1Title">Artificial Intelligence &amp; Machine Learning</h3>
+            <p class="skill-card__text" data-i18n="skill1Text">Core academic discipline at ENSTA. Studying supervised
+              and unsupervised learning, neural networks, and AI application development.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <polyline points="16 18 22 12 16 6" />
+                <polyline points="8 6 2 12 8 18" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill2Title">Web &amp; Mobile Development</h3>
+            <p class="skill-card__text" data-i18n="skill2Text">Building web interfaces and mobile applications. Hands-on
+              practice with HTML, CSS, and JavaScript, with coursework covering mobile development frameworks.</p>
+            <ul class="skill-tech-list" role="list">
+              <li>HTML &amp; CSS</li>
+              <li>JavaScript</li>
+              <li>Mobile Dev</li>
+            </ul>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <line x1="18" y1="20" x2="18" y2="10" />
+                <line x1="12" y1="20" x2="12" y2="4" />
+                <line x1="6" y1="20" x2="6" y2="14" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill3Title">Data Analysis &amp; Statistics</h3>
+            <p class="skill-card__text" data-i18n="skill3Text">Understanding how to interpret and analyse data using
+              statistical methods. Applied in AI and machine learning contexts as part of my programme at ENSTA.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="2" width="20" height="8" rx="2" ry="2" />
+                <rect x="2" y="14" width="20" height="8" rx="2" ry="2" />
+                <line x1="6" y1="6" x2="6.01" y2="6" />
+                <line x1="6" y1="18" x2="6.01" y2="18" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill4Title">Computer Networks &amp; Cybersecurity</h3>
+            <p class="skill-card__text" data-i18n="skill4Text">Studying network architectures, protocols, and security
+              principles. Exploring how systems communicate and how to protect them against threats.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <ellipse cx="12" cy="5" rx="9" ry="3" />
+                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3" />
+                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill5Title">Database Systems</h3>
+            <p class="skill-card__text" data-i18n="skill5Text">Learning relational and non-relational database design,
+              SQL, and data modelling. Applied in projects and academic coursework at ENSTA.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill6Title">Cryptography &amp; Blockchain</h3>
+            <p class="skill-card__text" data-i18n="skill6Text">Studying cryptographic principles, hash functions,
+              digital signatures, and distributed ledger technologies. An active area of interest tied to my academic
+              programme.</p>
+          </article>
+
+          <article class="skill-card reveal">
+            <div class="skill-card__icon" aria-hidden="true">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                stroke-linecap="round" stroke-linejoin="round">
+                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z" />
+                <polyline points="14 2 14 8 20 8" />
+                <line x1="16" y1="13" x2="8" y2="13" />
+                <line x1="16" y1="17" x2="8" y2="17" />
+                <polyline points="10 9 9 9 8 9" />
+              </svg>
+            </div>
+            <h3 class="skill-card__title" data-i18n="skill7Title">Algorithms &amp; Programming</h3>
+            <p class="skill-card__text" data-i18n="skill7Text">Strong focus on algorithmic thinking, data structures,
+              and problem-solving. Applying these skills through coursework, projects, and independent practice.</p>
+          </article>
+
+        </div>
+
+      </div>
+    </section>
+
+    <!-- Projects -->
+    <section class="section projects-section" id="projects" aria-labelledby="projects-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="projectsLabel">Projects</span>
+          <h2 id="projects-heading" data-i18n="projectsHeading">Selected work</h2>
+          <p class="section-subtitle" data-i18n="projectsSubtitle">Projects I have built or contributed to.</p>
+        </div>
+        <div class="projects-grid">
+
+          <!-- CourSpace -->
+          <article class="project-card project-card--featured reveal" aria-labelledby="project-1-title">
+            <div class="project-card__header">
+              <div class="project-card__meta">
+                <span class="project-number" aria-hidden="true" data-i18n="projectNumber">01</span>
+                <span class="project-status project-status--done" data-i18n="projectStatus">Completed</span>
+                <span class="project-badge" data-i18n="projectBadge">Academic Capstone</span>
+              </div>
+              <div class="project-card__tag-badge">
+                <span class="project-cycle-label">
+                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M22 10v6M2 10l10-5 10 5-10 5z" />
+                    <path d="M6 12v5c3 3 9 3 12 0v-5" />
+                  </svg>
+                  <span data-i18n="projectCycleLabel">2-Year Prepa Project (Prepanova)</span>
+                </span>
+              </div>
+            </div>
+
+            <div class="project-showcase">
+              <div class="project-gallery">
+                <div class="project-gallery__main" id="courspace-main-view">
+                  <img id="courspace-main-img" class="project-gallery__img"
+                    src="images/course%20space/photo_2026-10-15_20-48-24.jpg"
+                    alt="CourSpace — Algerian Courses App interface showcase" loading="lazy" />
+                  <button type="button" class="project-gallery__zoom-btn" id="courspace-zoom-btn"
+                    aria-label="View screenshot in full size">
+                    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+                      stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                      <circle cx="11" cy="11" r="8" />
+                      <line x1="21" y1="21" x2="16.65" y2="16.65" />
+                      <line x1="11" y1="8" x2="11" y2="14" />
+                      <line x1="8" y1="11" x2="14" y2="11" />
+                    </svg>
+                    <span data-i18n="projectZoomText">Click to zoom</span>
+                  </button>
+                  <span class="project-gallery__badge" data-i18n="projectGalleryBadge">Algerian Courses App</span>
+                </div>
+
+                <div class="project-gallery__thumbs" role="tablist" aria-label="CourSpace screenshot previews">
+                  <button type="button" class="project-gallery__thumb is-active"
+                    data-img-src="images/course%20space/photo_2026-10-15_20-48-24.jpg"
+                    data-caption="CourSpace — Algerian Courses App Overview &amp; Mobile Mockups"
+                    aria-label="CourSpace App Showcase" aria-selected="true" role="tab">
+                    <img src="images/course%20space/photo_2026-10-15_20-48-24.jpg" alt="Overview screenshot"
+                      loading="lazy" />
+                  </button>
+                  <button type="button" class="project-gallery__thumb"
+                    data-img-src="images/course%20space/photo_2026-10-15_20-48-28.jpg"
+                    data-caption="Prepanova Capstone Project Poster — CourSpace: Algerian Courses App"
+                    aria-label="Prepanova Project Poster" aria-selected="false" role="tab">
+                    <img src="images/course%20space/photo_2026-10-15_20-48-28.jpg" alt="Prepanova poster"
+                      loading="lazy" />
+                  </button>
+                  <button type="button" class="project-gallery__thumb"
+                    data-img-src="images/course%20space/photo_2026-10-15_20-47-16.jpg"
+                    data-caption="Programming Courses Screen — Real mobile UI showcasing available tech courses"
+                    aria-label="Programming Courses Screen" aria-selected="false" role="tab">
+                    <img src="images/course%20space/photo_2026-10-15_20-47-16.jpg" alt="Programming courses screen"
+                      loading="lazy" />
+                  </button>
+                  <button type="button" class="project-gallery__thumb"
+                    data-img-src="images/course%20space/photo_2026-10-15_20-48-30.jpg"
+                    data-caption="Algeria's Learning Map — Onboarding flow and guided discovery screens"
+                    aria-label="Onboarding Flow Screen" aria-selected="false" role="tab">
+                    <img src="images/course%20space/photo_2026-10-15_20-48-30.jpg" alt="Onboarding flow screens"
+                      loading="lazy" />
+                  </button>
+                  <button type="button" class="project-gallery__thumb" data-img-src="images/course%20space/logo.jpg"
+                    data-caption="CourSpace Official Identity &amp; App Brand Logo" aria-label="CourSpace Brand Logo"
+                    aria-selected="false" role="tab">
+                    <img src="images/course%20space/logo.jpg" alt="CourSpace App Logo" loading="lazy" />
+                  </button>
+                </div>
+              </div>
+
+              <div class="project-card__body">
+                <div class="project-brand-header">
+                  <img class="project-brand-logo" src="images/course%20space/logo.jpg" alt="CourSpace Logo" width="56"
+                    height="56" />
+                  <div>
+                    <span class="project-type" data-i18n="projectType">E-Learning Mobile App &bull; Prepanova</span>
+                    <h3 class="project-card__title" id="project-1-title" data-i18n="projectTitle">CourSpace</h3>
+                  </div>
+                </div>
+
+                <p class="project-card__description" data-i18n="projectDesc1">
+                  <strong>CourSpace</strong> (Course Space) is an Algerian e-learning mobile application developed as my
+                  final graduation project completing the <strong>2-year preparatory cycle</strong> (<em>Projet de Fin
+                    d'Études de Prépa &mdash; Prepanova</em>) at ENSTA.
+                </p>
+
+                <p class="project-card__description" data-i18n="projectDesc2">
+                  Conceived to eliminate fragmented searches across disparate platforms, CourSpace operates as an
+                  all-in-one learning map for Algerian students. It centralizes top online and in-person courses,
+                  curated programming tracks, and interactive roadmaps into a unified, user-friendly mobile experience.
+                </p>
+
+                <div class="project-features">
+                  <h4 class="project-features__title" data-i18n="projectHighlightsTitle">Project Highlights</h4>
+                  <ul class="project-features__list" role="list">
+                    <li data-i18n="projectH1"><strong>2-Year Prepa Culmination:</strong> Capstone project marking the
+                      completion of the 2-year intensive preparatory cycle.</li>
+                    <li data-i18n="projectH2"><strong>Algeria's Learning Map:</strong> Centralized hub cataloging vetted
+                      educational courses and opportunities nationwide.</li>
+                    <li data-i18n="projectH3"><strong>Mobile-First Design:</strong> Clean, intuitive Android UI tailored
+                      for effortless self-paced learning and course tracking.</li>
+                  </ul>
+                </div>
+
+                <ul class="tag-list" role="list" aria-label="Technologies and topics for CourSpace">
+                  <li class="tag" data-i18n="projectTag1">Mobile App</li>
+                  <li class="tag" data-i18n="projectTag2">UI/UX Design</li>
+                  <li class="tag" data-i18n="projectTag3">Figma</li>
+                  <li class="tag" data-i18n="projectTag4">E-Learning Platform</li>
+                  <li class="tag" data-i18n="projectTag5">2-Year Prepa Project</li>
+                  <li class="tag" data-i18n="projectTag6">ENSTA Algeria</li>
+                </ul>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Experience -->
+    <section class="section experience-section" id="experience" aria-labelledby="experience-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="expLabel">Experience</span>
+          <h2 id="experience-heading" data-i18n="expHeading">Professional &amp; Volunteer experience</h2>
+        </div>
+        <div class="exp-grid">
+
+          <!-- Algérie Télécom -->
+          <article class="exp-card reveal" aria-labelledby="exp-1-title">
+            <div class="exp-card__top">
+              <span class="exp-badge exp-badge--professional" data-i18n="exp1Badge">Internship</span>
+              <span class="exp-card__year" data-i18n="exp1Year">2025</span>
+            </div>
+            <div class="exp-card__body">
+              <div class="exp-card__org">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <rect x="2" y="7" width="20" height="14" rx="2" ry="2" />
+                  <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16" />
+                </svg>
+                <span data-i18n="exp1Org">Alg&eacute;rie T&eacute;l&eacute;com</span>
+              </div>
+              <h3 class="exp-card__title" id="exp-1-title" data-i18n="exp1Title">3rd Year Internship &middot; 6th
+                Semester</h3>
+              <p class="exp-card__desc" data-i18n="exp1Desc">
+                Completed my 3rd year (6th semester) internship at Alg&eacute;rie T&eacute;l&eacute;com as part of my
+                Artificial Intelligence and Applications programme at ENSTA.
+              </p>
+            </div>
+          </article>
+
+          <!-- NCASE'24 -->
+          <article class="exp-card reveal" aria-labelledby="vol-1-title">
+            <div class="exp-card__top">
+              <span class="exp-badge exp-badge--volunteer" data-i18n="exp2Badge">Volunteer</span>
+              <span class="exp-card__year" data-i18n="exp2Year">Nov 2024</span>
+            </div>
+            <div class="exp-card__body">
+              <div class="exp-card__org">
+                <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                  stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2" />
+                  <circle cx="9" cy="7" r="4" />
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87" />
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75" />
+                </svg>
+                <span data-i18n="exp2Org">NCASE&rsquo;24 &middot; ENSTA, Algeria</span>
+              </div>
+              <h3 class="exp-card__title" id="vol-1-title" data-i18n="exp2Title">Organization Committee Member</h3>
+              <p class="exp-card__desc" data-i18n="exp2Desc">
+                Volunteered as a member of the organizing committee for the first edition of the
+                National Conference of Applied Sciences and Engineering (NCASE&rsquo;24),
+                organized by the Applied Sciences Laboratory (LSA) at ENSTA.
+              </p>
+              <ul class="exp-card__list">
+                <li data-i18n="exp2L1">Welcomed participants and assisted attendees throughout the event.</li>
+                <li data-i18n="exp2L2">Helped organize and coordinate conference sessions.</li>
+                <li data-i18n="exp2L3">Coordinated event logistics for the smooth running of the conference.</li>
+              </ul>
+              <div class="cert-wrapper">
+                <img class="cert-photo" src="images/Screenshot 2026-10-14 214343.png"
+                  alt="NCASE'24 Certificate of Membership — KADDOUR Islam Abdelmalek" loading="lazy"
+                  data-i18n-alt="certAlt" />
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section contact-section" id="contact" aria-labelledby="contact-heading">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="section-label" data-i18n="contactLabel">Contact</span>
+          <h2 id="contact-heading" data-i18n="contactHeading">Let&rsquo;s connect</h2>
+          <p class="section-subtitle" data-i18n="contactSubtitle">
+            Open to internship opportunities, collaboration, and conversations with
+            other developers and researchers.
+          </p>
+        </div>
+        <div class="contact-layout">
+
+          <div class="contact-info reveal">
+            <p class="contact-info__text" data-i18n="contactInfoText">
+              You can reach me using the form on the right, or directly by email.
+              I read every message and respond as quickly as I can.
+            </p>
+            <ul class="contact-links" role="list">
+              <li>
+                <a class="contact-link" href="mailto:abdelmalek.kad@gmail.com"
+                  aria-label="Send me an email at abdelmalek.kad@gmail.com">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+                    <polyline points="22,6 12,13 2,6" />
+                  </svg>
+                  abdelmalek.kad@gmail.com
+                </a>
+              </li>
+
+              <li>
+                <a class="contact-link" href="https://www.linkedin.com/in/abdelmalek-islam-kaddour-832a04432/"
+                  target="_blank" rel="noopener noreferrer" aria-label="Visit my LinkedIn profile">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+                    stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+                    <rect x="2" y="9" width="4" height="12" />
+                    <circle cx="4" cy="4" r="2" />
+                  </svg>
+                  LinkedIn
+                </a>
+              </li>
+            </ul>
+          </div>
+
+          <div class="contact-form-wrapper reveal">
+            <form class="contact-form" id="contact-form" action="#" method="POST" novalidate data-demo="true">
+
+              <div class="form-row">
+                <div class="form-group">
+                  <label class="form-label" for="contact-name">
+                    <span data-i18n="formNameLabel">Full name</span> <span class="required"
+                      aria-label="required">*</span>
+                  </label>
+                  <input class="form-input" type="text" id="contact-name" name="name" autocomplete="name" required
+                    aria-required="true" aria-describedby="name-error" placeholder="Your name"
+                    data-i18n-placeholder="formNamePlaceholder" />
+                  <span class="form-error" id="name-error" role="alert" aria-live="polite"></span>
+                </div>
+                <div class="form-group">
+                  <label class="form-label" for="contact-email">
+                    <span data-i18n="formEmailLabel">Email address</span> <span class="required"
+                      aria-label="required">*</span>
+                  </label>
+                  <input class="form-input" type="email" id="contact-email" name="email" autocomplete="email" required
+                    aria-required="true" aria-describedby="email-error" placeholder="you@example.com"
+                    data-i18n-placeholder="formEmailPlaceholder" />
+                  <span class="form-error" id="email-error" role="alert" aria-live="polite"></span>
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-subject">
+                  <span data-i18n="formSubjectLabel">Subject</span> <span class="required"
+                    aria-label="required">*</span>
+                </label>
+                <input class="form-input" type="text" id="contact-subject" name="subject" required aria-required="true"
+                  aria-describedby="subject-error" placeholder="What is this about?"
+                  data-i18n-placeholder="formSubjectPlaceholder" />
+                <span class="form-error" id="subject-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <div class="form-group">
+                <label class="form-label" for="contact-message">
+                  <span data-i18n="formMessageLabel">Message</span> <span class="required"
+                    aria-label="required">*</span>
+                </label>
+                <textarea class="form-input form-textarea" id="contact-message" name="message" rows="5" required
+                  aria-required="true" aria-describedby="message-error" placeholder="Write your message here&hellip;"
+                  data-i18n-placeholder="formMessagePlaceholder"></textarea>
+                <span class="form-error" id="message-error" role="alert" aria-live="polite"></span>
+              </div>
+
+              <button class="btn btn-primary btn--full" type="submit" id="form-submit-btn" data-i18n="formSubmitBtn">
+                Send Message
+              </button>
+
+              <div class="form-feedback" id="form-feedback" role="status" aria-live="polite" aria-atomic="true" hidden>
+              </div>
+
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container footer-inner">
+
+      <div class="footer-brand">
+        <span class="footer-name" data-i18n="footerName">KADDOUR Abdelmalek Islam</span>
+        <p class="footer-tagline" data-i18n="footerTagline">AI &amp; Applications student at ENSTA, Algeria</p>
+      </div>
+
+      <nav class="footer-nav" aria-label="Footer navigation">
+        <ul role="list">
+          <li><a href="#home" data-i18n="navHome">Home</a></li>
+          <li><a href="#about" data-i18n="navAbout">About</a></li>
+          <li><a href="#education" data-i18n="navEducation">Education</a></li>
+          <li><a href="#projects" data-i18n="navProjects">Projects</a></li>
+          <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+          <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer-social">
+        <a class="social-link" href="https://www.linkedin.com/in/abdelmalek-islam-kaddour-832a04432/" target="_blank"
+          rel="noopener noreferrer" aria-label="LinkedIn profile">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z" />
+            <rect x="2" y="9" width="4" height="12" />
+            <circle cx="4" cy="4" r="2" />
+          </svg>
+        </a>
+        <a class="social-link" href="mailto:abdelmalek.kad@gmail.com" aria-label="Send me an email">
+          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8"
+            stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z" />
+            <polyline points="22,6 12,13 2,6" />
+          </svg>
+        </a>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      <p>
+        &copy; <span id="footer-year">2026</span> <span data-i18n="footerName">KADDOUR Abdelmalek Islam</span>.
+        <span data-i18n="footerRights">All rights reserved.</span>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Lightbox Modal -->
+  <div class="project-modal" id="courspace-modal" aria-hidden="true" role="dialog" aria-modal="true"
+    aria-label="CourSpace screenshot preview">
+    <div class="project-modal__content">
+      <button type="button" class="project-modal__close" id="courspace-modal-close" aria-label="Close image preview">
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"
+          stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <line x1="18" y1="6" x2="6" y2="18" />
+          <line x1="6" y1="6" x2="18" y2="18" />
+        </svg>
+      </button>
+      <img class="project-modal__img" id="courspace-modal-img" src="" alt="CourSpace full screenshot preview" />
+      <p class="project-modal__caption" id="courspace-modal-caption"></p>
+    </div>
+  </div>
+
+  <script src="js/translations.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>
